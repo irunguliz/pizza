@@ -55,7 +55,7 @@
     </div>
 
     <form name="pep" class="order" id="input">
-        <select id="flavour" name="flavour">
+        <select id="flavour" name="flavour" onchange="populate('flavour','size','crust','toppings','price' )">
             <option value=""></option>
            <option value="bbq-chicken">Barbeque-Chicken</option>
            <option value="deluxe">Meat-Deluxe</option>
@@ -78,13 +78,16 @@
            <option value="gluten-free">Gluten-free</option>
         </select>
 
-        <select id="toppinga" name="toppings">
+        <select id="toppings" name="toppings">
             <option value=""></option>
            <option value="extra-cheese">Extra cheese</option>
            <option value="bacon">Bacon</option>
            <option value="pepperoni">pepperoni</option>
            <option value="mushroom">Mushroom</option>
         </select>
+
+         Price 
+         <select id="price" name="price"></select>
     </form>
     <div id="section4">
         <h1>CONTACT<br>
