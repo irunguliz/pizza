@@ -1,104 +1,123 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    width: 100%;
-    background: #00FFEB ;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+nav {
+  width: 100%;
+  background: #00ffeb;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-li{
-    float: left;
+li {
+  float: left;
 }
 
-a{
-    padding: 20px;
-    width: 100px;
-    display: none;
-    text-decoration: none;
-    color: mediumvioletred;
-    text-transform: uppercase;
-    font-weight: bold;
+a {
+  padding: 20px;
+  width: 100px;
+  display: none;
+  text-decoration: none;
+  color: mediumvioletred;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-#section1{
-    height: 700px;
-    background-image: url("photos/table.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    color: rgb(231, 14, 159);
-    font-size: 20px;
+#section1 {
+  height: 700px;
+  background-image: url("photos/table.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  display: inline-block;
+  width: 100%;
+  color: rgb(231, 14, 159);
+  font-size: 20px;
 }
 
-#section2{
-    height: 700px;
-    background-image: url("photos/people.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-
+#section2 {
+  height: 700px;
+  background-image: url("photos/people.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  display: inline-block;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
-#section3{
-    height: 700px;
-    background-image: url("photos/board.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    color: rgb(118, 14, 236);
-    font-size: 20px;
-
+#section3 {
+  height: 700px;
+  background-image: url("photos/board.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  display: inline-block;
+  width: 100%;
+  color: rgb(118, 14, 236);
+  font-size: 20px;
 }
 
-#section4{
-    height: 700px;
-    background-image: url("photos/food.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-
+#section4 {
+  height: 700px;
+  background-image: url("photos/food.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  display: inline-block;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
-h1{
-    font-size: 5rem;
-    font-family: sans-serif;
-    font-weight: bolder;
-    text-shadow: .1rem .1rem .3rem #333;
-    color: crimson;
+h1 {
+  font-size: 5rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 0.1rem 0.1rem 0.3rem #333;
+  color: crimson;
 }
 
-p{
-    background: white;
+p {
+  background: white;
+}
+
+.pizza1, .pizza2, .pizza3, .pizza4 {
+  color: rgb(0, 0, 0);
+  border: 5px solid white;
+  position: absolute;
+  top: 270%;
+  left: 5%;
+  height: 200px;
+  width: 200px;
+}
+
+.pizza2 {
+ left: 25%;
+}
+
+.pizza3{
+left: 47%;
+}
+
+.pizza4{
+    left: 70%;
 }
