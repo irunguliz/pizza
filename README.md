@@ -1,15 +1,17 @@
-# Introduction to Delani Studios
-## This Studio portfolio was created and designed by Liz Irungu on 25/07/2021.
+# Introduction to Liz's Pizza
+## This food website was created and designed by Liz Irungu on 01/08/2021.
 # Project Description
-This is a project that informs users of Delani studios,what they do, how to contact them and their services.
+This is a project that allows customers to purchase pizza and leave feedback.
 # Setup Instructions
-To use this portfolio you need to have strong internet connection and access it from github.
+To use this website you need to have strong internet connection and access it from github.
 # Technology used
 * Html
 * Css
 * Bootstrap
 * Javascript
 * JQuery
+* Constructor
+* Prototypes
 # Website requirements
 * Chrome browser
 * Github
@@ -17,9 +19,9 @@ To use this portfolio you need to have strong internet connection and access it 
 # Bugs
 It runs properly as long as you have strong network connection.
 # Live link to delani studios
-<a href="https://irunguliz.github.io/studio/"> delani studios</a>
+<a href="https://irunguliz.github.io/studio/"> Liz's pizza</a>
 
-# Delani studios Image
+# Liz's pizza Image
 <img src= "photos/delani.png">
 
 # Contact information
