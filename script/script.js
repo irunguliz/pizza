@@ -42,11 +42,11 @@ $(".image4").mouseout(function () {
 function formValidation() {
     let name = document.forms["form"]["name"].value;
     let email = document.forms["form"]["email"].value;
-    let order = document.forms["form"]["order"].value;
+    let message = document.forms["form"]["message"].value;
 
-    if (name == "" || email == "" || order == "") {
+    if (name == "" || email == "" || message == "") {
         alert("Fill all fields");
     } else {
-        alert(`name:${name}\n email address: ${email}\n We thank you for your order. Your order has been received and will be delivered as soon as it is ready. Thank you for dining with us. \n received by Liz Irungu`);
+        alert(`name:${name}\n email address: ${email}\n We thank you for your message. Your feedback has been received and we will respond to it as soon as we can. \n received by Liz Irungu`);
     }
 }
