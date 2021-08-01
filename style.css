@@ -90,3 +90,11 @@ a{
     font-size: 20px;
 
 }
+
+h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .3rem #333;
+    color: crimson;
+}
