@@ -57,4 +57,15 @@ function populate(flavour, size, crust, toppings, price) {
        var crust = document.getElementById(crust);
        var toppings = document.getElementById(toppings);
        var price = document.getElementById(price);
+       price.innerHTML ="";
+       if(flavour == "Barberque-chicken", size == "small", crust =="crispy", toppings="extra-cheese"){
+            var Array = ["550"|"550"];
+       }
+       for(var option in Array){
+        var pair = Array[option].split("|");
+        var newOption= document.createElement("option");
+        newOption.value= pair[0];
+        newOption.innerHTML= pair[1];
+        price.options.add(newOption);
+       }
 }
