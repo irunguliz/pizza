@@ -49,3 +49,44 @@ a{
     font-size: 20px;
 }
 
+#section2{
+    height: 700px;
+    background-image: url("photos/people.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+
+}
+
+#section3{
+    height: 700px;
+    background-image: url("photos/board.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+
+}
+
+#section4{
+    height: 700px;
+    background-image: url("photos/food.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+
+}
