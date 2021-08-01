@@ -22,7 +22,7 @@ It runs properly as long as you have strong network connection.
 <a href="https://irunguliz.github.io/pizza/"> Liz's pizza</a>
 
 # Liz's pizza Image
-<img src= "photos/delani.png">
+<img src= "photos/kin.png">
 
 # Contact information
 To reach me you can find me here 0727566767
