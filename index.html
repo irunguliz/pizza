@@ -55,11 +55,25 @@
     </div>
 
     <div id="section4">
-        <h1>WELCOME<br>
-            TO DELANI STUDIO</h1>
-        <p>
-            AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
-        </p>
+        <h1>CONTACT<br>
+            US</h1>
+        <form name="form" onsubmit="return false">
+            <div class="row mb-3" id="form">
+                <div class="col-4">
+                    <input type="text" name="name" placeholder="Name...." class="form-control">
+                </div>
+                <div class="col-4">
+                    <input type="email" name="email" placeholder="Email...." class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="fom">
+                    <textarea name="order" id="textareamessage" cols="50" rows="6"
+                        placeholder="Your order here"></textarea>
+                </div>
+            </div>
+            <button class="text-white bg-dark" onclick="return formValidation()">Sumbit</button>
+        </form>
     </div>
     <script src="script/jquery-3.6.0.js"></script>
     <script src="script/script.js"></script>

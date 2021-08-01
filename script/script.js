@@ -38,3 +38,15 @@ $(".image4").mouseout(function () {
     $(".pizza4").hide();
     $(".image4").css("opacity", "1");
 });
+
+function formValidation() {
+    let name = document.forms["form"]["name"].value;
+    let email = document.forms["form"]["email"].value;
+    let order = document.forms["form"]["order"].value;
+
+    if (name == "" || email == "" || order == "") {
+        alert("Fill all fields");
+    } else {
+        alert(`name:${name}\n email address: ${email}\n We thank you for your order. Your order has been received and will be delivered as soon as it is ready. Thank you for dining with us. \n received by Liz Irungu`);
+    }
+}
