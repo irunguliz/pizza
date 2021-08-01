@@ -50,3 +50,11 @@ function formValidation() {
         alert(`name:${name}\n email address: ${email}\n We thank you for your message. Your feedback has been received and we will respond to it as soon as we can. \n received by Liz Irungu`);
     }
 }
+
+function populate(flavour, size, crust, toppings, price) {
+       var flavour = document.getElementById(flavour);
+       var size = document.getElementById(size);
+       var crust = document.getElementById(crust);
+       var toppings = document.getElementById(toppings);
+       var price = document.getElementById(price);
+}
