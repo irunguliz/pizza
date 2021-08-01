@@ -19,7 +19,7 @@ To use this website you need to have strong internet connection and access it fr
 # Bugs
 It runs properly as long as you have strong network connection.
 # Live link to delani studios
-<a href="https://irunguliz.github.io/studio/"> Liz's pizza</a>
+<a href="https://irunguliz.github.io/pizza/"> Liz's pizza</a>
 
 # Liz's pizza Image
 <img src= "photos/delani.png">
