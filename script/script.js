@@ -51,21 +51,20 @@ function formValidation() {
     }
 }
 
-function populate(flavour, size, crust, toppings, price) {
-       var flavour = document.getElementById(flavour);
-       var size = document.getElementById(size);
-       var crust = document.getElementById(crust);
-       var toppings = document.getElementById(toppings);
-       var price = document.getElementById(price);
-       price.innerHTML ="";
-       if(flavour == "Barberque-chicken", size == "small", crust =="crispy", toppings="extra-cheese"){
-            var Array = ["550"|"550"];
-       }
-       for(var option in Array){
-        var pair = Array[option].split("|");
-        var newOption= document.createElement("option");
-        newOption.value= pair[0];
-        newOption.innerHTML= pair[1];
-        price.options.add(newOption);
-       }
+function populate(delivery, location) {
+    var delivery = document.getElementById(delivery);
+    var location = document.getElementById(location);
+    location.innerHTML = "";
+    if (delivery == "yes") {
+        var optionArray = ["nairobi|Nairobi", "Kiambu|Kiambu"];
+    } else if (delivery == "no") {
+        var optionArray = [""];
+    }
+    for (var option in optionArray) {
+        var pair = optionArray[Option].split("|");
+        var newOption = document.createElement("option");
+        newOption.value = pair[0];
+        newOption.innerHTML = pair[1];
+        location.options.add(newOption);
+    }
 }
