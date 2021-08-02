@@ -26,7 +26,17 @@
         <h1>Liz's pizza</h1>
         <p>
             Order or dine in to receive great, affordable and fresh pizzas and receive high quality service.
+            We have been open for two years now and have been perfecting our pizza recipes and are sure you will enjoy them. We have locations in different parts of the country but we can also deliver right at your doorstep at a fee.
+            Giving you new and unique food experiences is our motivation and inspiration behind our pizzas. This collection of dishes can be served with any drink of your choice. Order now or at any of our branches countrywide. Don’t enjoy alone, bring a friend along.
         </p>
+        <img src="photos/pizza1.jpg"  height="194px" width="259px" alt="piz" />
+        <img src="photos/pizza2.jpg"  height="182px" width="276px" alt="piz" />
+        <img src="photos/pizza3.jpg"  height="183px" width="275px" alt="piz" />
+        <img src="photos/pizza4.jpg"  height="183px" width="275px" alt="piz" />
+        <img src="photos/pizza5.jpg"  height="194px" width="259px" alt="piz" />
+        <img src="photos/pizza6.jpg"  height="188px" width="268px" alt="piz" />
+        <img src="photos/pizza7.jpg"  height="159px" width="318px" alt="piz" />
+        <img src="photos/pizza8.jpg"  height="183px" width="275px" alt="piz" />
     </div><br>
 
 
@@ -44,6 +54,63 @@
     <div id="section3">
         <h1>PIZZA<br>
             MENU</h1>
+        <h2> Order Here</h2>
+
+        <form name="pep" class="order" id="input">
+            <select id="flavour" name="flavour" onchange="populate('flavour','size','crust','toppings','price' )">
+                <option value="choose">Choose pizza <span class="text-danger"></span></option>
+                <option value="bbq-chicken">Barbeque-Chicken</option>
+                <option value="deluxe">Meat-Deluxe</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="pepperonii">Pepperonii</option>
+            </select>
+
+            <select id="size" name="size">
+                <option value="choose">Choose size <span class="text-danger"></span></option>
+                <option value="small">Small - 600</option>
+                <option value="medium">Medium - 850 </option>
+                <option value="large">Large - 1000</option>
+                <option value="mega">Mega - 1200</option>
+            </select>
+
+            <select id="crust" name="crust">
+                <option value="choose">Choose crust <span class="text-danger"></span></option>
+                <option value="crispy">crispy - 150 </option>
+                <option value="stuffed">Stuffed - 200</option>
+                <option value="gluten-free">Gluten-free - 250</option>
+            </select>
+
+            <select id="toppings" name="toppings">
+                <option value="choose">Choose toppings <span class="text-danger"></span></option>
+                <option value="extra-cheese">Extra cheese- 50 </option>
+                <option value="bacon">Bacon - 100</option>
+                <option value="pepperoni">pepperoni- 100</option>
+                <option value="mushroom">Mushroom- 150</option>
+            </select>
+                
+            </select>
+            <select id="delivery" name="delivery">
+                <option value="choose">Should it be delivered? <span class="text-danger"></span></option>
+                <option value="one">Yes</option>
+                <option value="two">No </option>
+            </select>
+            <select id="location" name="location">
+                <option value="choose">Delivery location <span class="text-danger"></span></option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Kiambu">Kiambu </option><br>
+            </select>
+            <label for="number"></label>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+
+            <a href="#summary">
+                <button type="submit" class="btn btn-success mt-2" id="checkout">
+                  Proceed Checkout
+                </button>
+              </a>
+        </form><br>
+        <p>
+            Our restaurant offers four types of pizza those being: barbeque chicken, meat deluxe, hawaiian and pepperonii. The pizzas are made to your liking and I am very sure you will enjoy it and come for seconds.
+        </p>
         <img src="photos/bbq-chicken.jpg" class="image1 mb-3" height="300px" width="300px" alt="bbq" />
         <h2 class="pizza1"> Barbeque-Chicken</h2>
         <img src="photos/deluxe.jpg" class="image2 mb-3" height="300px" width="300px" alt="deluxe" />
@@ -52,60 +119,7 @@
         <h2 class="pizza3"> Hawaiian</h2>
         <img src="photos/pepperonii.png" class="image4 mb-3" height="300px" width="300px" alt="pepperoni" />
         <h2 class="pizza4"> Pepperonii</h2>
-    </div>
-
-    <form name="pep" class="order" id="input">
-        <select id="flavour" name="flavour" onchange="populate('flavour','size','crust','toppings','price' )">
-            <option value="choose">Choose pizza <span class="text-danger"></span></option>
-            <option value="bbq-chicken">Barbeque-Chicken</option>
-            <option value="deluxe">Meat-Deluxe</option>
-            <option value="hawaiian">Hawaiian</option>
-            <option value="pepperonii">Pepperonii</option>
-        </select>
-
-        <select id="size" name="size">
-            <option value="choose">Choose size <span class="text-danger"></span></option>
-            <option value="small">Small - 600</option>
-            <option value="medium">Medium - 850 </option>
-            <option value="large">Large - 1000</option>
-            <option value="mega">Mega - 1200</option>
-        </select>
-
-        <select id="crust" name="crust">
-            <option value="choose">Choose crust <span class="text-danger"></span></option>
-            <option value="crispy">crispy - 150 </option>
-            <option value="stuffed">Stuffed - 200</option>
-            <option value="gluten-free">Gluten-free - 250</option>
-        </select>
-
-        <select id="toppings" name="toppings">
-            <option value="choose">Choose toppings <span class="text-danger"></span></option>
-            <option value="extra-cheese">Extra cheese- 50 </option>
-            <option value="bacon">Bacon - 100</option>
-            <option value="pepperoni">pepperoni- 100</option>
-            <option value="mushroom">Mushroom- 150</option>
-        </select>
-        <select id="number" name="number">
-            <option value="choose">Choose number <span class="text-danger"></span></option>
-            <option value="one">One </option>
-            <option value="two">Two </option>
-            <option value="three">Three</option>
-            <option value="four">Four</option>
-        </select>
-        <select id="delivery" name="delivery">
-            <option value="choose">Should it be delivered? <span class="text-danger"></span></option>
-            <option value="one">Yes</option>
-            <option value="two">No </option>
-        </select>
-        <select id="location" name="location">
-            <option value="choose">Delivery location <span class="text-danger"></span></option>
-            <option value="Nairobi">Nairobi</option>
-            <option value="Kiambu">Kiambu </option>
-        </select>
-
-        <select id="price" name="price"></select>
-        <option value="choose"><span class="text-danger"></span></option>
-    </form>
+    </div> -->
     <div id="section4">
         <h1>CONTACT<br>
             US</h1>
